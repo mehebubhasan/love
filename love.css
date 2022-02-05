@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+    height: 96vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 15px solid gray;
+}
+.maindiv div {
+    height: 200px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    transform: rotate(43deg);
+    position: relative;
+    border-radius: 100px 100px 0px 200px;
+    box-shadow: 27px 0px 52px black;
+}
+.maindiv div::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    transform: rotate(94deg);
+    position: absolute;
+    bottom: -43px;
+    left: -46px;
+    border-radius: 200px 0px 100px 100px;
+    
+}
